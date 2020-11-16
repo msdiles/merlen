@@ -1,0 +1,17 @@
+{
+  "name": "merlen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "methods.js",
+  "scripts": {
+    "build": "./node_modules/.bin/babel src --out-dir lib",
+    "start":"node lib/methods.js"
+  },
+  "author": "Dmitrij Leshchuk",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1"
+  }
+}
